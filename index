@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <style>html, body, p {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: Verdana;
+    font-size: 16px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+header h1, header h4, header nav a {
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+}
+header, main, footer {
+    display: flex;
+}
+
+main {
+    flex-direction: row;
+}
+
+footer {
+    flex-direction: column;
+}
+
+header {
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+}
+
+header h1 {
+   margin-left: 15px;
+   font-weight: bold;
+   font-size: 32px;
+}
+
+header nav
+{
+    flex-grow: 2;
+    align-self: flex-start;
+    
+}
+
+header nav a {
+ 
+ width: 75px;
+
+}
+
+
+
+
+</style>
+        </head>
+        <body>
+            
+
+
+<title>Pierwsza responsywna strona Diany</title>
+
+
+<header>
+<h4>Logo</h4>
+<h1>Responsywna stronka Diany</h1>
+<nav>
+    <a href="https://www.agh.edu.pl/">Link 1</a>
+    <a href="https://www.agh.edu.pl/">Link 2</a>
+    <a href="https://www.agh.edu.pl/">Link 3</a>
+</nav>
+</header>
+<br>
+<main>
+<article>
+<div class="naglowek-1">Wisława Szymborska "Dłoń"</div>
+<p>Dwadzieścia siedem kości,
+trzydzieści pięć mięśni,
+około dwóch tysięcy komórek nerwowych
+w każdej opuszce naszych pięciu palców.
+To zupełnie wystarczy,
+żeby napisać „Mein Kampf”
+albo „Chatkę Puchatka”.</p>
+</article>
+
+<article>
+<div class="naglowek-1">Wisława Szymborska "Cebula"</div>
+<p>Co innego cebula.
+Ona nie ma wnętrzności.
+Jest sobą na wskroś cebula
+do stopnia cebuliczności.
+Cebulasta na zewnątrz,
+cebulowa do rdzenia,
+mogłaby wejrzeć w siebie
+cebula bez przerażenia.</p>
+</article>
+
+<article>
+<div class="naglowek-1">Wisława Szymborska "Chmury"</div>
+<p>Z opisywaniem chmur
+musiałabym się bardzo śpieszyć –
+już po ułamku chwili
+przestają być te, zaczynają być inne.
+
+Ich właściwością jest
+nie powtarzać się nigdy
+w kształtach, odcieniach, pozach i układzie.</p>
+</article>
+</main>
+<br>
+<footer>
+<p>Projekt i wykonanie</p>
+<p>Diana Samiczak</p>
+</footer>
+
+
+            <script>// Write JavaScript here</script>
+        
+    
+</body>
